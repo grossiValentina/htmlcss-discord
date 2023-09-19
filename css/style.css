@@ -86,6 +86,7 @@ a {
     align-items: center;
     background-image: url("../img/jumbo.png");
     background-size: 100%;
+}
 
 
 .colonna-hero {
@@ -151,6 +152,14 @@ a {
     min-height: 500px;
     background-color: green;
 }
+    
+.login-mac2{
+        background-color: rgb(83, 85, 143);
+        color: white;
+        height: 3rem;
+        border-radius: 10rem;
+        padding: .7rem;
+}
 /* /MAIN */
 
 /*  FOOTER */
@@ -183,4 +192,4 @@ footer {
     background-color: aqua;
 }
 
-/*  /FOOTER*/
+/* /FOOTER */
