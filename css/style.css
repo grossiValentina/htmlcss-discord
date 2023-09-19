@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-
+h2 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1rem;
+}
 img {
     max-width: 100%;
 }
@@ -16,8 +22,8 @@ img {
 .contenitore {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid white;
     max-width: 1100px;
+    display: flex;
 }
 .contenitore-flex {
     display: flex;
@@ -25,21 +31,19 @@ img {
 
 .parte-superiore {
     height: 5rem;
-    background-color: lightblue;
+    background-color: rgba(24, 88, 206, 0.938);
 }
 
 /*  NAVIGAZIONE*/
 .parte-navigazione {
-    background-color: orange;
-    height: 1rem;
     display: flex;
     justify-content: center;
 }
 
 /*  LOGO*/
 .logo {
-    width: 20%;
-    background-color: orange;
+    width: 5rem;
+    display: flex;
 }
 
 /*  LINK*/
@@ -50,31 +54,71 @@ img {
 }
 
 ul {
-    flex-grow: 2;
-    list-style-type: none;
+     list-style-type: none;
     display: flex;
     justify-content: center;
+}
+li {
+    align-self: center;
+    margin: 1rem;
+}
+a {
+    color: white;
 }
 
 /*  LOGIN*/
 .login {
-    width: 20%;
+    width: 6rem;
+    height: 3rem;
     text-align: end;
-    background-color: orange;
+    color: black;
+    background-color: white;
+    border-radius: 10rem;
+    padding: 1rem;
+    text-align: center;
+
 }
 
 /*  HERO*/
 .hero {
-    background-color: blue;
     min-height: 500px;
     display: flex;
     align-items: center;
-}
+    background-image: url("../img/jumbo.png");
+    background-size: 100%;
+
 
 .colonna-hero {
-    background-color: fuchsia;
     width: 60%;
     margin: 0 auto;
+    text-align: center;
+}
+.colonna-hero h2 {
+    padding-bottom: 3rem;
+}
+
+.bottoni {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+
+}
+
+.login-mac {
+    background-color: white;
+    color: black;;
+    height: 3rem;
+    border-radius: 10rem;
+    padding: .7rem;
+    
+}
+.login-browser {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    border-radius: 10rem;
+    padding: .7rem;
+
 }
 
 
@@ -91,14 +135,13 @@ ul {
     display: flex;
 }
 .colonna-grande {
-    width: 65%;
-    background-color: lightblue;
+    width: 45%;
     min-height: 300px;
 }
 .colonna-piccola {
     width: 35%;
-    background-color: lightpink;
-    min-height: 300px;
+    min-height: 100px;
+    display: flex;
 }
 .sfondo {
     background-color: lightgray;
